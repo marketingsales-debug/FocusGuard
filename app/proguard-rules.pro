@@ -1,0 +1,3 @@
+# FocusGuard ProGuard Rules
+-keep class com.focusguard.app.** { *; }
+-keepclassmembers class com.focusguard.app.data.** { *; }

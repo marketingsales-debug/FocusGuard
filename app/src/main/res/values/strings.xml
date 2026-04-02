@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FocusGuard</string>
+    <string name="accessibility_description">FocusGuard uses accessibility to filter food-related content from YouTube to help you stay focused.</string>
+    <string name="blocking_active">Blocking is active</string>
+    <string name="blocking_inactive">Blocking is inactive</string>
+    <string name="enter_pin">Enter PIN to unlock</string>
+    <string name="set_pin">Set a 4-digit PIN</string>
+    <string name="confirm_pin">Confirm your PIN</string>
+    <string name="pin_mismatch">PINs do not match. Try again.</string>
+    <string name="wrong_pin">Wrong PIN. Try again.</string>
+    <string name="blocked_title">Content Blocked</string>
+    <string name="blocked_message">This app has been blocked by FocusGuard to help you stay focused.</string>
+    <string name="go_home">Go Home</string>
+    <string name="unlock_with_pin">Unlock with PIN</string>
+    <string name="schedule_title">Blocking Schedule</string>
+    <string name="start_time">Start Time</string>
+    <string name="end_time">End Time</string>
+    <string name="save_schedule">Save Schedule</string>
+    <string name="enable_blocking">Enable Blocking</string>
+    <string name="block_food_apps">Block Food Delivery Apps</string>
+    <string name="block_porn">Block Adult Content</string>
+    <string name="filter_youtube">Filter YouTube Food Content</string>
+    <string name="schedule_blocking">Schedule Blocking</string>
+    <string name="setup_pin">Setup PIN Lock</string>
+    <string name="permissions_needed">Permissions Needed</string>
+    <string name="grant_usage_access">Grant Usage Access</string>
+    <string name="grant_accessibility">Enable Accessibility Service</string>
+    <string name="enable_vpn">Enable Content Filter</string>
+    <string name="notification_channel">FocusGuard Service</string>
+    <string name="notification_text">FocusGuard is protecting you</string>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/surface">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/schedule_title"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set hours when blocking is active"
+        android:textSize="14sp"
+        android:alpha="0.7"
+        android:layout_marginBottom="24dp" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switchScheduleEnable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enable Schedule"
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp"
+        android:padding="8dp" />
+
+    <!-- Start Time -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_time"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnStartTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="09:00 AM"
+        android:layout_marginBottom="16dp"
+        style="@style/Widget.Material3.Button.OutlinedButton" />
+
+    <!-- End Time -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/end_time"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnEndTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="09:00 PM"
+        android:layout_marginBottom="32dp"
+        style="@style/Widget.Material3.Button.OutlinedButton" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSaveSchedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save_schedule" />
+
+</LinearLayout>

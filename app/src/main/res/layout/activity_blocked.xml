@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="@color/blocked_bg">
+
+    <ImageView
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/ic_block"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="Blocked" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/blocked_title"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/blocked_message"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:alpha="0.9"
+        android:gravity="center"
+        android:layout_marginBottom="48dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnGoHome"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/go_home"
+        android:textColor="@color/blocked_bg"
+        android:backgroundTint="@color/white"
+        android:layout_marginBottom="16dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnUnlockPin"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/unlock_with_pin"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:strokeColor="@color/white"
+        android:textColor="@color/white" />
+
+</LinearLayout>

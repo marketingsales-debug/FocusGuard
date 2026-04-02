@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.FocusGuard" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryContainer">@color/primary_container</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+    </style>
+
+    <style name="Theme.FocusGuard.Blocked" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/blocked_bg</item>
+        <item name="android:statusBarColor">@color/blocked_bg</item>
+    </style>
+</resources>
